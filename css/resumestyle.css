@@ -1,0 +1,32 @@
+body {
+	margin: 0;
+	background-color: rgb(165, 199, 255);
+ }
+.navigation{
+	position: stick;
+	top: 0;
+}
+#pages{
+	list-style-type: none;
+	background-color: #ccf3ff;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+ }
+ li{
+ 	font-family: Garamond;
+ 	display: inline;
+ 	float: left;
+ }
+ li a{
+ 	display: block;
+ 	color: #4642ba;
+ 	padding: 14px 16px;
+ 	text-decoration: none;
+ }
+ li a.active {
+ 	background-color: #ebccff;
+ }
+ li a:hover:not(.active){
+ 	background-color: #8ad1e6;
+ }
